@@ -9,7 +9,8 @@
 Make sure you have:
 - **Python 3.8 or higher**
 - Required libraries:
-  pip install requests matplotlib rich pyfiglet
+
+  ```pip install requests matplotlib rich pyfiglet```
 
 
 - A Strava developer account for API credentials:
@@ -29,11 +30,12 @@ python extract_strava_data.py
 
 ```
 The extract_strava_data.py script fetches data from the Strava API and saves it to a JSON file.
-
 2. Generate Insights:
-
 Run the following:
+```
 python insights.py
-
+```
 3. Visualize Monthly acitivity data:
+```
 python visualize_strava.py
+```
